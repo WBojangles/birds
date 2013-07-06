@@ -62,3 +62,69 @@
 	<SFML/Window.hpp>
 	<tr1/memory>
 
+1373147881 source:/home/bojangles/Documents/programming/projects/birds/SHE/src/Manager/AssetManager.cpp
+	"../../include/Manager/AssetManager.hpp"
+
+1373147881 /home/bojangles/Documents/programming/projects/birds/SHE/include/Manager/AssetManager.hpp
+	<SFML/Graphics.hpp>
+	<string>
+	<map>
+	<vector>
+	<tr1/memory>
+	<iostream>
+
+1373147881 source:/home/bojangles/Documents/programming/projects/birds/SHE/src/Manager/InputManager.cpp
+	"../../include/Manager/InputManager.hpp"
+
+1373147881 /home/bojangles/Documents/programming/projects/birds/SHE/include/Manager/InputManager.hpp
+	"Input.hpp"
+	<map>
+	<iostream>
+
+1373147881 /home/bojangles/Documents/programming/projects/birds/SHE/include/Manager/Input.hpp
+	"../Utility/KeyList.hpp"
+	<SFML/Window.hpp>
+	<map>
+	<string>
+
+1373147881 /home/bojangles/Documents/programming/projects/birds/SHE/include/Utility/KeyList.hpp
+	<SFML/Window.hpp>
+	<vector>
+	<map>
+
+1373147881 source:/home/bojangles/Documents/programming/projects/birds/SHE/src/Manager/StateManager.cpp
+	"../../include/Manager/StateManager.hpp"
+
+1373147881 /home/bojangles/Documents/programming/projects/birds/SHE/include/Manager/StateManager.hpp
+	"StateMap.hpp"
+	<SFML/Graphics.hpp>
+	<tr1/memory>
+	<iostream>
+
+1373147881 /home/bojangles/Documents/programming/projects/birds/SHE/include/Manager/StateMap.hpp
+	"../State/State.hpp"
+	"../State/DefaultState.hpp"
+	<map>
+	<string>
+	<tr1/memory>
+
+1373147881 /home/bojangles/Documents/programming/projects/birds/SHE/include/State/State.hpp
+	<SFML/Graphics.hpp>
+
+1373147881 /home/bojangles/Documents/programming/projects/birds/SHE/include/State/DefaultState.hpp
+	"State.hpp"
+
+1373147499 source:/home/bojangles/Documents/programming/projects/birds/main.cpp
+	"include/Game.hpp"
+
+1373147881 /home/bojangles/Documents/programming/projects/birds/include/Game.hpp
+	"../SHE/include/State/State.hpp"
+	"../SHE/include/Manager/StateManager.hpp"
+	"../SHE/include/Manager/InputManager.hpp"
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	<tr1/memory>
+
+1373147882 source:/home/bojangles/Documents/programming/projects/birds/src/Game.cpp
+	"../include/Game.hpp"
+
