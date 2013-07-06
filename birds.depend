@@ -1,0 +1,64 @@
+# depslib dependency file v1.0
+1362375309 source:/home/bojangles/Documents/Programming/Projects/Game/birds/SHE/src/Manager/AssetManager.cpp
+	"../../include/Manager/AssetManager.hpp"
+
+1354925201 /home/bojangles/Documents/Programming/Projects/Game/birds/SHE/include/Manager/AssetManager.hpp
+	<SFML/Graphics.hpp>
+	<string>
+	<map>
+	<vector>
+	<tr1/memory>
+	<iostream>
+
+1355960787 source:/home/bojangles/Documents/Programming/Projects/Game/birds/SHE/src/Manager/InputManager.cpp
+	"../../include/Manager/InputManager.hpp"
+
+1355960581 /home/bojangles/Documents/Programming/Projects/Game/birds/SHE/include/Manager/InputManager.hpp
+	"Input.hpp"
+	<map>
+	<iostream>
+
+1355272306 /home/bojangles/Documents/Programming/Projects/Game/birds/SHE/include/Manager/Input.hpp
+	"../Utility/KeyList.hpp"
+	<SFML/Window.hpp>
+	<map>
+	<string>
+
+1355269331 /home/bojangles/Documents/Programming/Projects/Game/birds/SHE/include/Utility/KeyList.hpp
+	<SFML/Window.hpp>
+	<vector>
+	<map>
+
+1354926982 source:/home/bojangles/Documents/Programming/Projects/Game/birds/SHE/src/Manager/StateManager.cpp
+	"../../include/Manager/StateManager.hpp"
+
+1354926786 /home/bojangles/Documents/Programming/Projects/Game/birds/SHE/include/Manager/StateManager.hpp
+	"StateMap.hpp"
+	<SFML/Graphics.hpp>
+	<tr1/memory>
+	<iostream>
+
+1354841777 /home/bojangles/Documents/Programming/Projects/Game/birds/SHE/include/Manager/StateMap.hpp
+	"../State/State.hpp"
+	"../State/DefaultState.hpp"
+	<map>
+	<string>
+	<tr1/memory>
+
+1354842064 /home/bojangles/Documents/Programming/Projects/Game/birds/SHE/include/State/State.hpp
+	<SFML/Graphics.hpp>
+
+1354842077 /home/bojangles/Documents/Programming/Projects/Game/birds/SHE/include/State/DefaultState.hpp
+	"State.hpp"
+
+1373126765 source:/home/bojangles/Documents/Programming/Projects/Game/birds/main.cpp
+	"include/Game.hpp"
+
+1373126834 /home/bojangles/Documents/Programming/Projects/Game/birds/include/Game.hpp
+	"../SHE/include/State/State.hpp"
+	"../SHE/include/Manager/StateManager.hpp"
+	"../SHE/include/Manager/InputManager.hpp"
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+	<tr1/memory>
+
