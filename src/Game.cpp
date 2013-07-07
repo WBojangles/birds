@@ -4,7 +4,7 @@ brd::Game::Game()
 {
 	SHE::StateManager::window.create(sf::VideoMode(800, 600), "birds", sf::Style::Titlebar | sf::Style::Close);
 	//SHE::StateManager::window.create(sf::VideoMode(1440, 900), "Sailing the Seas of Sick", sf::Style::Fullscreen);
-	SHE::StateManager::window.setMouseCursorVisible(false);
+	SHE::StateManager::window.setMouseCursorVisible(true);
 	SHE::StateManager::window.setFramerateLimit(60);
 
 	// Player setup
@@ -30,8 +30,8 @@ brd::Game::Game()
 	SHE::InputManager::bind(1, "right", sf::Joystick::X, true);
 	SHE::InputManager::bind(1, "start", 0);
 
-	//SHE::StateManager::create("Title", std::tr1::shared_ptr<SHE::State>(new brd::Title));
-	//SHE::StateManager::set("Title");
+	SHE::StateManager::create("Title", std::tr1::shared_ptr<SHE::State>(new brd::Title));
+	SHE::StateManager::set("Title");
 }
 
 bool brd::Game::running()
