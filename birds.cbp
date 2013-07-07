@@ -36,6 +36,7 @@
 			<Add option="-lsfml-graphics" />
 			<Add option="-lsfml-window" />
 			<Add option="-lsfml-system" />
+			<Add option="-lstdc++" />
 		</Linker>
 		<Unit filename="SHE/include/Manager/AssetManager.hpp" />
 		<Unit filename="SHE/include/Manager/Input.hpp" />
@@ -49,8 +50,12 @@
 		<Unit filename="SHE/src/Manager/InputManager.cpp" />
 		<Unit filename="SHE/src/Manager/StateManager.cpp" />
 		<Unit filename="include/Game.hpp" />
+		<Unit filename="include/Play.hpp" />
+		<Unit filename="include/Title.hpp" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/Play.cpp" />
+		<Unit filename="src/Title.cpp" />
 		<Extensions>
 			<code_completion />
 			<debugger />
