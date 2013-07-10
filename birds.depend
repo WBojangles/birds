@@ -51,13 +51,16 @@
 1354842077 /home/bojangles/Documents/Programming/Projects/Game/birds/SHE/include/State/DefaultState.hpp
 	"State.hpp"
 
-1373126765 source:/home/bojangles/Documents/Programming/Projects/Game/birds/main.cpp
+1373425377 source:/home/bojangles/Documents/Programming/Projects/Game/birds/main.cpp
 	"include/Game.hpp"
+	<cstdlib>
+	<ctime>
 
-1373126834 /home/bojangles/Documents/Programming/Projects/Game/birds/include/Game.hpp
+1373160489 /home/bojangles/Documents/Programming/Projects/Game/birds/include/Game.hpp
 	"../SHE/include/State/State.hpp"
 	"../SHE/include/Manager/StateManager.hpp"
 	"../SHE/include/Manager/InputManager.hpp"
+	"Title.hpp"
 	<SFML/Graphics.hpp>
 	<SFML/Window.hpp>
 	<tr1/memory>
@@ -147,4 +150,33 @@
 
 1373159345 source:/home/bojangles/Documents/programming/projects/birds/src/Play.cpp
 	"../include/Play.hpp"
+
+1373160489 /home/bojangles/Documents/Programming/Projects/Game/birds/include/Title.hpp
+	"../SHE/include/State/State.hpp"
+	"../SHE/include/Manager/StateManager.hpp"
+	"../SHE/include/Manager/AssetManager.hpp"
+	"../SHE/include/Manager/InputManager.hpp"
+	"Play.hpp"
+	<tr1/memory>
+
+1373428306 /home/bojangles/Documents/Programming/Projects/Game/birds/include/Play.hpp
+	"../SHE/include/State/State.hpp"
+	"../SHE/include/Manager/StateManager.hpp"
+	"../SHE/include/Manager/AssetManager.hpp"
+	"Bird.hpp"
+	<iostream>
+
+1373428317 /home/bojangles/Documents/Programming/Projects/Game/birds/include/Bird.hpp
+	<string>
+	<cstdlib>
+	<fstream>
+
+1373160489 source:/home/bojangles/Documents/Programming/Projects/Game/birds/src/Game.cpp
+	"../include/Game.hpp"
+
+1373428300 source:/home/bojangles/Documents/Programming/Projects/Game/birds/src/Play.cpp
+	"../include/Play.hpp"
+
+1373160489 source:/home/bojangles/Documents/Programming/Projects/Game/birds/src/Title.cpp
+	"../include/Title.hpp"
 

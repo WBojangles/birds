@@ -49,10 +49,12 @@
 		<Unit filename="SHE/src/Manager/AssetManager.cpp" />
 		<Unit filename="SHE/src/Manager/InputManager.cpp" />
 		<Unit filename="SHE/src/Manager/StateManager.cpp" />
+		<Unit filename="include/Bird.hpp" />
 		<Unit filename="include/Game.hpp" />
 		<Unit filename="include/Play.hpp" />
 		<Unit filename="include/Title.hpp" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/Bird.cpp" />
 		<Unit filename="src/Game.cpp" />
 		<Unit filename="src/Play.cpp" />
 		<Unit filename="src/Title.cpp" />
