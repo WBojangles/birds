@@ -4,6 +4,8 @@
 #include "../SHE/include/State/State.hpp"
 #include "../SHE/include/Manager/StateManager.hpp"
 #include "../SHE/include/Manager/AssetManager.hpp"
+#include "Bird.hpp"
+#include <iostream>
 
     namespace brd
     {
@@ -18,6 +20,8 @@ class Play : public SHE::State
     void clean();
 
   private:
+	brd::Bird birds[1];
+	sf::Text dialogue;
 };
     }
 

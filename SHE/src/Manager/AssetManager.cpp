@@ -7,7 +7,7 @@ typedef std::map<std::string, std::tr1::shared_ptr<sf::Font> > fontMap;
 textureMap SHE::AssetManager::textures = textureMap();
 fontMap SHE::AssetManager::fonts = fontMap();
 std::string SHE::AssetManager::textureLocation = ".assets/img/";
-std::string SHE::AssetManager::fontLocation = ".assets/font/";
+std::string SHE::AssetManager::fontLocation = ".assets/fnt/";
 std::vector<std::string> SHE::AssetManager::textureLoadReady = std::vector<std::string>();
 std::vector<std::string> SHE::AssetManager::fontLoadReady = std::vector<std::string>();
 
@@ -68,12 +68,14 @@ void SHE::AssetManager::loadFonts()
 		{
 			if (fonts.find(fontLoadReady[i]) == fonts.end()) // Be sure that key added doesn't already exist
 			{
-				fonts[fontLoadReady[i]] = std::tr1::shared_ptr<sf::Font>();
+				fonts[fontLoadReady[i]] = std::tr1::shared_ptr<sf::Font>(new sf::Font);
 				if (!fonts[fontLoadReady[i]]->loadFromFile(fontLocation + fontLoadReady[i])) exit(1); // TODO: handle dat error
 			}
 		}
 	}
 	fontLoadReady.clear(); // Refresh
+
+	std::cout << "All fonts loaded\n";
 }
 
 // Remove a font

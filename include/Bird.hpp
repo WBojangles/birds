@@ -11,11 +11,16 @@ class Bird
 {
   public:
     Bird();
+    void setDialogue(const int&);
+    void nextText();
+
     std::string name;
+    char gnd;
 
   private:
     static const int NUM_NAMES;
-}
+    int dgTrack;
+};
     }
 
 #endif
